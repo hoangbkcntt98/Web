@@ -94,3 +94,70 @@ Processing by MicropostsController#index as HTML
 Completed 200 OK in 15ms (Views: 11.7ms | ActiveRecord: 0.5ms | Allocations: 8726)
 
 
+Started GET "/users" for ::1 at 2019-09-22 20:13:03 +0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1598)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/bugger485/Desktop/20191/Test/Web/week2/demo_app/public/packs
+Completed 200 OK in 2434ms (Views: 2415.2ms | ActiveRecord: 1.1ms | Allocations: 1435682)
+
+
+Started GET "/users" for ::1 at 2019-09-22 20:13:07 +0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 641)
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.7ms | Allocations: 7176)
+
+
+Started GET "/users" for ::1 at 2019-09-22 20:13:08 +0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 634)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.2ms | Allocations: 7172)
+
+
+Started GET "/users" for ::1 at 2019-09-22 20:13:09 +0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 634)
+Completed 200 OK in 29ms (Views: 26.3ms | ActiveRecord: 0.3ms | Allocations: 7171)
+
+
+Started GET "/users" for ::1 at 2019-09-22 20:13:09 +0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 634)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.2ms | Allocations: 7175)
+
+
+Started GET "/users" for ::1 at 2019-09-22 20:13:10 +0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 627)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.1ms | Allocations: 7152)
+
+
+Started GET "/users" for ::1 at 2019-09-22 20:13:10 +0700
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 627)
+Completed 200 OK in 29ms (Views: 26.4ms | ActiveRecord: 0.3ms | Allocations: 7152)
+
+
